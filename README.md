@@ -1,3 +1,5 @@
+# hexo主题[yilia](http://litten.github.io/2014/08/31/hexo-theme-yilia/)自用修改版，主要调整了色调，美化了下布局。
+---
 hexo-theme-yilia
 ================
 
@@ -153,4 +155,3 @@ aboutme: 我是谁，我从哪里来，我到哪里去？我就是我，是颜�
     
     另外，Yilia实现了图片异常处理，会将instagram图片的cdn路径替换成源服务器路径。因而你不必担心图片在天朝被墙的情况。
 
-# yilia_modify 
