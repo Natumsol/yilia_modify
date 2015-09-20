@@ -1,0 +1,53 @@
+# Header
+menu:
+  主页: /
+  所有文章: /archives
+  项目: /project
+  关于: /about
+# SubNav
+subnav:
+  github: "https://github.com/natumsol"
+  weibo: "http://weibo.com/whutqinglan"
+  twitter: "http://twitter/natumsol"
+  #rss: "#"
+  #facebook: "#"
+  # google: "#"
+  # linkedin: "#"
+
+#rss: /atom.xml
+
+# Content
+excerpt_link: more
+fancybox: true
+
+# Miscellaneous
+
+favicon: /favicon.png
+
+#你的头像
+avatar: /avatar.jpg
+#是否开启分享
+share: true
+#是否开启多说评论，填写你在多说申请的项目名称
+duoshuo: natumsol
+#是否开启云标签
+tagcloud: true
+
+#是否开启友情链接
+#不开启——
+#friends: false
+#开启——
+friends:
+  碎总: http://imid.me/
+  小胡子哥: http://barretlee.com/
+  刘哇勇: http://www.cnblogs.com/Wayou/
+  "Daniel T. Eden": http://daneden.me/
+  苹果的味道: http://www.qingyuanxingsi.com/
+  caniuse: http://caniuse.com/
+  MDN: https://developer.mozilla.org/zh-CN/
+
+#是否开启“关于我”。
+#不开启——
+aboutme: false
+#开启——
+#aboutme: '"I see , I come, I conquer"'
