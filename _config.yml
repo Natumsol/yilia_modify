@@ -51,3 +51,5 @@ friends:
 aboutme: false
 #开启——
 #aboutme: '"I see , I come, I conquer"'
+toc:
+  maxDepth: 3
