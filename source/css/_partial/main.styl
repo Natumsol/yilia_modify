@@ -3,17 +3,38 @@
 	min-height:100%;
 	#mobile-nav{
 		display: none;
-		background: none repeat scroll 0% 0% black;
-		opacity: 0.9;
+		// background: none repeat scroll 0% 0% black;
+		// opacity: 0.9;
+		background: #000;
 		transition:all .3s ease-in;
+		background-image: url(/images/cover6.jpg);
+    	background-position-x: -100px;
+    	background-position-y: -353px;
+    	position:relative;
+    	height:286px;
+    	-webkit-transition: all 0.3s ease-in;
+	    -moz-transition: all 0.3s ease-in;
+	    -ms-transition: all 0.3s ease-in;
+	    transition: all 0.3s ease-in;
 		&:hover{
-			opacity: 1;
+			.overlay{
+				opacity:0.3;
+			}
 		}
 		.overlay{
-			height: 110px;
+			height: 100%;
 			position: absolute;
 			width: 100%;
-			/*background: #4d4d4d;*/
+			background: #000;
+			opacity:0.2;
+			-webkit-transition: all 0.3s ease-in;
+		    -moz-transition: all 0.3s ease-in;
+		    -ms-transition: all 0.3s ease-in;
+		    transition: all 0.3s ease-in;
+		}
+		.intrude-less{
+			position:absolute;
+			width:100%;
 		}
 		#header{
 			padding: 10px 0 0 0;
@@ -37,20 +58,28 @@
 		background: #000;
 		width: 300px;
 		position:fixed;
-		opacity:0.9;
+		// opacity:0.9;
 		transition:all .3s ease-in;
 		height:100%;
 		background-image:url(/images/cover6.jpg);
 		background-position-x: -232px;
     	background-position-y: -303px;
-		
+		&:hover{
+			.overlay{
+				opacity:0.3;
+			}
+		}
 
 		.overlay{
 			width: 100%;
 			height: 100%;
 			background-color: black;
 			position: absolute;
-			opacity: 0.5;
+			opacity: 0.2;
+			-webkit-transition: all 0.3s ease-in;
+		    -moz-transition: all 0.3s ease-in;
+		    -ms-transition: all 0.3s ease-in;
+		    transition: all 0.3s ease-in;
 		}
 
 		.intrude-less {
