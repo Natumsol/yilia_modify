@@ -1,6 +1,7 @@
 bomWidth = window.screen.width;
 containerWidth = parseInt(document.defaultView.getComputedStyle(document.getElementById('container')).width);
 document.getElementById('container').style.marginLeft = (bomWidth - containerWidth) / 2 + "px";
+document.getElementById('container').style.display = "block";
 var restart = document.getElementById('restart');
 var undo = document.getElementById('undo');
 
