@@ -169,13 +169,13 @@ ul {
 }
 
 #avatar {
-  width: 256px;
-  height: 256px;
+  width: 166px;
+  /*height: 256px;*/
   border: 10px solid #AEE2D9;
-  -webkit-border-radius: 50%;
+  /*-webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 50%;*/
 }
 
 .circle-img {
